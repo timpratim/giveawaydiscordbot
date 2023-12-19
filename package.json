@@ -1,0 +1,20 @@
+{
+    "name": "discordbot",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+      "start": "node --loader ts-node/esm index.ts"
+    },
+    "dependencies": {
+      "discord.js": "^14.11.0",
+      "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+      "@types/node": "^20.1.4",
+      "@types/uuid": "^9.0.1",
+      "ts-node": "^10.9.1",
+      "typescript": "^5.0.4"
+    }
+  }
