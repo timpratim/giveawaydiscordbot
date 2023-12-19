@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { Client, GatewayIntentBits, TextChannel } from 'discord.js';
 
-const token = <string>process.env.RAISON_BOT_TOKEN;
+const token = <string>process.env.BOT_TOKEN;
 
 const channelId = <string>process.env.CHANNEL_ID;
 
@@ -20,6 +20,7 @@ main().catch((err) => {
 
 function CollectionUserReactions() {
 
+  
   const client = new Client({ intents: [GatewayIntentBits.GuildMessages, GatewayIntentBits.Guilds, GatewayIntentBits.MessageContent] });
 
   client.once('ready', async () => {
