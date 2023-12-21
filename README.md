@@ -54,8 +54,6 @@ MESSAGE_ID=your_message_id
 
 
 
-7) Run the project
-   Run the project with `npm start <number of winners you want to select>`
+7) Run the project: Run the project with `npm start <number of winners you want to select>`
 
-8) Contributing
-   Contributions to the project are welcome! Please follow the standard GitHub pull request process.
+8) Contributing: Contributions to the project are welcome! Please follow the standard GitHub pull request process.
