@@ -43,8 +43,7 @@ MESSAGE_ID=your_message_id
 
 6) Important Notes
    - Ensure your bot has the required permissions on your Discord server.
-   - You can refer to [this](https://www.upwork.com/resources/how-to-make- 
-   discord-bot) blog.
+   - You can refer to [this](https://www.upwork.com/resources/how-to-make-discord-bot) blog.
    - When on step 8, check the following permissions: View Channels, Read 
      Message History, Send Messages.
    - Never share your Discord token. Add it to your local env file. 
